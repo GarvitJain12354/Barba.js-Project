@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    overflow: hidden;
+
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: pink;
+    display: flex;
+    position: relative;
+}
+
+#right{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+#left1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+#right1{
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    background-color: royalblue;
+}
+.card1{
+    position: relative;
+    height: 35%;
+    width: 100%;
+    background-color: brown;
+}
+#o1{
+    background-color: black;
+}
+#o2{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+#o3{
+    background-color:gold;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+#o4{
+    /* background-color: #fff; */
+    overflow: hidden;
+    background-color: black;
+
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+#o3>h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+    transform: rotate(270deg);
+    /* -webkit-text-stroke: .5px black; */
+    
+    
+}
+#o2>h1{
+    font-size: 40px;
+}
+#o2>h3{
+    font-size: 22px;
+    font-weight: 900;
+}
+#o2>p{
+    text-align: start;
+    font-weight: 700;
+}
+span{
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    transition: all ease .5s;
+}
+#s1{
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+    background-color: red;
+}
+#s2{
+    clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+    background-color: pink;
+}
+#s3{
+    clip-path: polygon(0 50%, 100% 50%, 100% 75%, 0 75%);
+    background-color: gold;
+}
+#s4{
+    clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+    background-color: blue;
+}
+#o1>span{
+background-image: url(https://images.unsplash.com/photo-1615212863630-1691e4c99c15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+
+}
+#o4>span{
+    background-image: url(https://images.unsplash.com/photo-1615212842895-426a0840dc8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+.r1>span{
+    background-image: url(https://images.unsplash.com/photo-1637140945341-f28ada987326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80);
+}
+#right>a{
+    position: absolute;
+    z-index: 99;
+    font-size: 100px;
+    text-decoration: none;
+    bottom: 10%;
+    right: 5%;
+   
+}
+#right>a>i{
+    /* background-color: #fff; */
+    color: white;
+    
+}
+.r2>span{
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/skull-modern-album-cover-video-design-template-4b958fcb8359b60314b0d04da266b1bd_screen.jpg?ts=1649512213);
+}
+#o11{
+    background-color: black;
+}
+#o11>span{
+    /* background-image: url(https://images.unsplash.com/photo-1564506153357-0e4482d2bea0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60); */
+    background-image: url(https://images.unsplash.com/photo-1535467728855-93fe6218a7b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+#o41>span{
+    background-image: url(https://images.unsplash.com/photo-1500305614571-ae5b6592e65d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+#o41{
+    background-color: black;
+}
+#o31>h3{
+    transform: rotate(270deg);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+ position: absolute;
+left: 30%;
+top: 62%;
+
+}
+#o31>h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    transform: rotate(270deg);
+    
+    
+    
+}
+#o31{
+    background-color:rgb(41, 35, 35);
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    position: relative;
+
+}
+#ar{
+    left: 69%;
+}
+#nav{
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    z-index: 999;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: white;
+
+}
+#dets{
+    display: flex;
+    font-size: 12px;
+    gap: 20px;
+}
+#nav>i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+
+}
+#bottom{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 70px;
+    bottom: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+    /* background-color: red; */
+}
+#bottom>i{
+    font-size: 30px;
+    color: #fff;
+}
+
+@media (max-width:500px) {
+    #main{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+    #right>a{
+        font-size: 50px;
+    }
+    #o3>h1{
+        font-size: 30px;
+    }
+    #o2>p {
+        font-size: 10px;
+    }
+    #o2>h1{
+        font-size: 30px;
+        white-space: nowrap;
+        margin-left: -20px;
+    }
+    #o31>h3{
+        left: 10%;
+        top: 55%;
+    }
+    #o31>h1{
+        font-size: 30px;
+    }
+}
